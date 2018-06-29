@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lightning QRCodeScan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+</head>
+<script type="text/javascript" src="jquery/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/grid.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/version.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/detector.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/formatinf.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/errorlevel.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/bitmat.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/datablock.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/bmparser.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/datamask.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/rsdecoder.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/gf256poly.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/gf256.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/decoder.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/qrcode.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/findpat.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/alignpat.js"></script>
+<script type="text/javascript" src="jsqrcode-master/src/databr.js"></script>
+<script type="text/javascript" src="js/capture.js"></script>
+
+<body>
+  <div class="camera">
+    <video id="video">Video stream not available.</video>
+    <button id="startbutton">Take photo</button>
+    <button id="checkqr">checkrq</button>
+  </div>
+  <canvas id="canvas">
+  </canvas>
+  <div class="output">
+    <img id="photo" alt="The screen capture will appear in this box.">
+  </div>
+  <div class="outputFliped">
+    <img id="photoFliped" alt="The screen capture will appear in this box.">
+  </div>
+</body>
+
+</html>
