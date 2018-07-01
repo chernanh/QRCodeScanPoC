@@ -1,0 +1,7 @@
+{
+  "name": "QRScanPolyElement",
+  "short_name": "QRScanPolyElement",
+  "description": "qr scan LLC",
+  "start_url": "/",
+  "display": "standalone"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "QRScanPolyElement",
+  "description": "qr scan LLC",
+  "main": "index.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "granite-qrcode-scanner": "LostInBrittany/granite-qrcode-scanner#^2.0.1",
+    "granite-qrcode-decoder": "LostInBrittany/granite-qrcode-decoder#^1.0.2",
+    "jsqrcode": "LostInBrittany/jsqrcode#^1.0.1"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  }
+}
