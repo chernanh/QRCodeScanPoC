@@ -117,13 +117,13 @@
       context.drawImage(video, 0, 0, width, height);
       var data = canvas.toDataURL('image/png');
       photo.setAttribute('src', data);
-      console.log(qrcode.decode(data));
+      console.log(qrcode.decode(data, canvas));
       contextF.translate(width, 0);
       contextF.scale(-1, 1);
       contextF.drawImage(video, 0, 0, width, height);
       data = canvas.toDataURL('image/png');
       photoFliped.setAttribute('src', data);
-      console.log(qrcode.decode(data));
+      console.log(qrcode.decode(data, canvas));
     } else {
       clearphoto();
     }
