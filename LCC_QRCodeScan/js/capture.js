@@ -130,7 +130,7 @@
   }
   function checkqrcode(){
     var data = photo.getAttribute("src");
-    console.log(qrcode.decode(data, canvas.getContext('2d');));
+    console.log(qrcode.decode(data, canvas.getContext('2d')));
   }
   // Set up our event listener to run the startup process
   // once loading is complete.
