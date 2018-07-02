@@ -10,34 +10,6 @@
   ],
   "builds": [
     {
-      "name": "bundled",
-      "bundle": true,
-      "js": {
-        "compile": true,
-        "minify": true
-      },
-      "css": {
-        "minify": true
-      },
-      "html": {
-        "minify": true
-      }
-    },
-    {
-      "name": "unbundled",
-      "bundle": false,
-      "js": {
-        "compile": true,
-        "minify": true
-      },
-      "css": {
-        "minify": true
-      },
-      "html": {
-        "minify": true
-      }
-    },
-    {
       "name": "es6-bundled",
       "browserCapabilities": [
         "es2015"
